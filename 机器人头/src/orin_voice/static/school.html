@@ -1,0 +1,8 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>心语 · 学校工作台</title><link rel="stylesheet" href="/school.css">
+<script defer src="/school_ops_ui.js"></script><script defer src="/school_reports.js"></script><script defer src="/school_content.js"></script><script defer src="/school.js"></script></head>
+<body><header><div class="wordmark">心语 <span>学校工作台</span></div><a href="/">访谈工作台 ↗</a></header><main>
+<section id="login" class="login" hidden><h1>登录学校工作台</h1><form id="credentials"><label>账号<input name="username" autocomplete="username" required></label><label>密码<input name="password" type="password" autocomplete="current-password" required></label><button>登录</button></form><p>首次登录信息保存在设备的 sessions/学校工作台-首次登录.txt。</p></section>
+<section id="home" hidden><div class="staff"><h1 id="identity"></h1><button id="logout">退出登录</button></div>
+<nav id="sections" aria-label="工作区"></nav><div id="attention" role="status" hidden></div><div id="workspace"></div></section>
+<div id="message" role="alert"></div></main></body></html>

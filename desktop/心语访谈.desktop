@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=心语访谈
+Comment=学校心理工作台、学生访谈与档案
+Exec=bash "/home/nvidia/Desktop/机器人头/scripts/school.sh"
+Path=/home/nvidia/Desktop/机器人头
+Terminal=false
+Icon=audio-input-microphone
+Categories=AudioVideo;Education;

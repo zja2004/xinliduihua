@@ -1,0 +1,7 @@
+numpy==2.2.6
+scipy==1.15.3
+sherpa-onnx==1.13.8
+soundfile==0.13.1
+sounddevice==0.5.6
+opencv-python-headless==4.11.0.86
+pyserial==3.5

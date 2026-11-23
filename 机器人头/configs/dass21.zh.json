@@ -1,0 +1,132 @@
+{
+  "instrument": "DASS-21",
+  "title": "DASS-21 中文情绪自评量表（一）",
+  "example": false,
+  "language": "zh-Hans",
+  "translation": "Taouk Moussa, Lovibond & Laube (2001)，官方托管中文版；简体显示，保留原文",
+  "source": "https://dass.psy.unsw.edu.au/Chinese/Chinese%20DASS21.pdf",
+  "scoring_source": "https://dass.psy.unsw.edu.au/Chinese/Chinese%20DASS21%20scoring%20template.pdf",
+  "reference_period": "past_week",
+  "instructions": "请根据过往一个星期的情况回答，答案没有对错之分。每题直接说零分、一分、二分或三分，系统记录并主动提问下一题。可以先补充描述，再选择分值；说上一题可返回修改。",
+  "response_options": {
+    "0": "不适用",
+    "1": "颇适用，或间中适用",
+    "2": "很适用，或经常适用",
+    "3": "最适用，或常常适用"
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "text": "我觉得很难让自己安静下来",
+      "source_text": "我覺得很難讓自己安靜下來"
+    },
+    {
+      "id": "Q02",
+      "text": "我感到口干",
+      "source_text": "我感到口乾"
+    },
+    {
+      "id": "Q03",
+      "text": "我好像不能再有任何愉快、舒畅的感觉",
+      "source_text": "我好像不能再有任何愉快、舒暢的感覺"
+    },
+    {
+      "id": "Q04",
+      "text": "我感到呼吸困难（例如不是做运动时也感到气促或透不过气来）",
+      "source_text": "我感到呼吸困難（例如不是做運動時也感到氣促或透不過氣來）"
+    },
+    {
+      "id": "Q05",
+      "text": "我感到很难自动去开始工作",
+      "source_text": "我感到很難自動去開始工作"
+    },
+    {
+      "id": "Q06",
+      "text": "我对事情往往作出过敏反应",
+      "source_text": "我對事情往往作出過敏反應"
+    },
+    {
+      "id": "Q07",
+      "text": "我感到颤抖（例如手震）",
+      "source_text": "我感到顫抖（例如手震）"
+    },
+    {
+      "id": "Q08",
+      "text": "我觉得自己消耗很多精神",
+      "source_text": "我覺得自己消耗很多精神"
+    },
+    {
+      "id": "Q09",
+      "text": "我忧虑一些令自己恐慌或出丑的场合",
+      "source_text": "我憂慮一些令自己恐慌或出醜的場合"
+    },
+    {
+      "id": "Q10",
+      "text": "我觉得自己对将来没有什么可盼望",
+      "source_text": "我覺得自己對將來沒有甚麼可盼望"
+    },
+    {
+      "id": "Q11",
+      "text": "我感到忐忑不安",
+      "source_text": "我感到忐忑不安"
+    },
+    {
+      "id": "Q12",
+      "text": "我感到很难放松自己",
+      "source_text": "我感到很難放鬆自己"
+    },
+    {
+      "id": "Q13",
+      "text": "我感到忧郁沮丧",
+      "source_text": "我感到憂鬱沮喪"
+    },
+    {
+      "id": "Q14",
+      "text": "我无法容忍任何阻碍我继续工作的事情",
+      "source_text": "我無法容忍任何阻礙我繼續工作的事情"
+    },
+    {
+      "id": "Q15",
+      "text": "我感到快要恐慌了",
+      "source_text": "我感到快要恐慌了"
+    },
+    {
+      "id": "Q16",
+      "text": "我对任何事也不能热衷",
+      "source_text": "我對任何事也不能熱衷"
+    },
+    {
+      "id": "Q17",
+      "text": "我觉得自己不怎么配做人",
+      "source_text": "我覺得自己不怎麼配做人"
+    },
+    {
+      "id": "Q18",
+      "text": "我发觉自己很容易被触怒",
+      "source_text": "我發覺自己很容易被觸怒"
+    },
+    {
+      "id": "Q19",
+      "text": "我察觉自己在没有明显的体力劳动时，也感到心律不正常",
+      "source_text": "我察覺自己在沒有明顯的體力勞動時，也感到心律不正常"
+    },
+    {
+      "id": "Q20",
+      "text": "我无缘无故地感到害怕",
+      "source_text": "我無緣無故地感到害怕"
+    },
+    {
+      "id": "Q21",
+      "text": "我感到生命毫无意义",
+      "source_text": "我感到生命毫無意義"
+    }
+  ],
+  "auto_advance": true,
+  "source_response_options": {
+    "0": "不適用",
+    "1": "頗適用，或間中適用",
+    "2": "很適用，或經常適用",
+    "3": "最適用，或常常適用"
+  },
+  "script_normalization": "繁体原文转简体显示，词义及题序不变"
+}

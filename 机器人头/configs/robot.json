@@ -1,0 +1,57 @@
+{
+  "enabled": false,
+  "auto_start": false,
+  "session_mode": "voice",
+  "wake_cooldown_seconds": 15,
+  "require_person_leave_before_rewake": true,
+  "vision": {
+    "enabled": true,
+    "camera": 0,
+    "width": 640,
+    "height": 480,
+    "fps": 12,
+    "stable_frames": 6,
+    "missing_reset_seconds": 3.0,
+    "cooldown_seconds": 15,
+    "minimum_face_pixels": 70,
+    "scale_factor": 1.15,
+    "min_neighbors": 5,
+    "target_smoothing": 0.3,
+    "target_max_step": 0.12,
+    "target_deadband": 0.015,
+    "mirror_x": false,
+    "cascade_path": "",
+    "rotation": 180,
+    "jpeg_quality": 82,
+    "detector": "yolo",
+    "yolo": {
+      "model_path": "models/vision/yolov8n-face-lindevs.onnx",
+      "confidence_threshold": 0.4,
+      "nms_iou": 0.45,
+      "input_size": 640
+    }
+  },
+  "voice_wake": {
+    "enabled": true,
+    "phrases": [
+      "你好小心",
+      "小心小心",
+      "你好机器人"
+    ],
+    "device": null,
+    "sample_rate": 16000,
+    "silence_ms": 500,
+    "max_seconds": 5,
+    "speech_threshold": 0.015,
+    "cooldown_seconds": 3.0,
+    "reject_monitor_sources": true
+  },
+  "chat": {
+    "enabled": true,
+    "profile": "psyche",
+    "port": 18081,
+    "gpu_layers": 99,
+    "context": 4096,
+    "max_tokens": 100
+  }
+}

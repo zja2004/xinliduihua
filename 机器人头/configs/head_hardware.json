@@ -1,0 +1,19 @@
+{
+  "backend": "serial",
+  "ros_domain_id": 93,
+  "ros_localhost_only": true,
+  "calibration_confirmed": true,
+  "eye_horizontal_range_deg": 8.0,
+  "eye_vertical_range_deg": 5.0,
+  "eye_smoothing_alpha": 0.2,
+  "eye_max_step_deg": 0.6,
+  "invert_horizontal": true,
+  "invert_vertical": true,
+  "target_timeout_s": 1.0,
+  "notes": "实时读取Head Controller标定与当前姿态，仅眼球S7/S10跟随YOLO最高分人脸；保持其他22轴。",
+  "eye_speed_deg_s": 8.0,
+  "eye_control_hz": 25.0,
+  "eye_deadband": 0.04,
+  "serial_port": "auto",
+  "serial_baud": 115200
+}

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="720" viewBox="0 0 1120 720" role="img" aria-labelledby="t d">
+<title id="t">心语机甲头部罩壳候选 A，外观评审稿</title>
+<desc id="d">正视、右侧视和顶部接口示意。轮廓使用圆弧过渡，保留双眼、口部运动窗、镜头和侧后维护区。用 W、H、D 标记须实测的外包络，不指定制造尺寸。</desc>
+<defs>
+ <marker id="arr" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 1L9 5L0 9Z" fill="#446575"/></marker>
+ <pattern id="vent" width="10" height="11" patternUnits="userSpaceOnUse"><path d="M1 5h6" stroke="#8098a1" stroke-width="2" stroke-linecap="round"/></pattern>
+ <style>text{font-family:'Noto Sans CJK SC',sans-serif;fill:#163740}.small{font-size:14px}.label{font-size:18px;font-weight:600}.mute{fill:#435e68}.part{stroke:#294a55;stroke-width:3;stroke-linejoin:round}.construction{fill:none;stroke:#83a0a6;stroke-width:1;stroke-dasharray:5 5}.dim{fill:none;stroke:#446575;stroke-width:1.4;marker-start:url(#arr);marker-end:url(#arr)}.leader{fill:none;stroke:#446575;stroke-width:1.4}</style>
+</defs>
+<rect width="1120" height="720" fill="#ffffff"/>
+<text x="44" y="52" font-size="28" font-weight="700">心语机器人 · 头罩外观候选 A</text><text x="44" y="83" class="small mute">外观评审稿 01　｜　尺寸符号待样机实测　｜　示意图不按比例</text>
+<path d="M44 104h1032" stroke="#b9cbce"/>
+<text x="83" y="145" class="label">正视</text>
+<path class="construction" d="M264 155v365M77 316h380"/>
+<g class="part">
+ <path d="M126 283Q126 195 206 186Q265 170 323 188Q392 206 397 278L391 388Q384 451 311 466Q260 476 204 463Q132 445 124 376Z" fill="#d9e9e8"/>
+ <path d="M127 282Q143 237 178 215Q156 273 155 359L132 376Z" fill="#85b4b3"/>
+ <path d="M396 282Q382 237 347 215Q369 273 370 359L392 376Z" fill="#85b4b3"/>
+ <rect x="166" y="272" width="193" height="65" rx="29" fill="#385963"/>
+ <ellipse cx="212" cy="304" rx="19" ry="15" fill="#d7efed"/><ellipse cx="310" cy="304" rx="19" ry="15" fill="#d7efed"/>
+ <circle cx="212" cy="304" r="6" fill="#294a55"/><circle cx="310" cy="304" r="6" fill="#294a55"/>
+ <rect x="244" y="235" width="37" height="16" rx="8" fill="#718e98"/><circle cx="263" cy="243" r="5" fill="#193640"/>
+ <rect x="219" y="366" width="90" height="42" rx="18" fill="#eff4ed"/><path d="M238 386q25 13 53-1" fill="none"/>
+ <path d="M205 451q58 18 114 0l-8 22q-53 12-98-1Z" fill="#8ba3a4"/>
+</g>
+<path class="dim" d="M124 497h272"/><text x="232" y="523" class="label">W 外宽</text>
+<path class="dim" d="M93 184v292"/><text x="74" y="355" transform="rotate(-90 74 355)" class="label">H 外高</text>
+<text x="481" y="145" class="label">右侧视</text>
+<path class="construction" d="M468 315h314"/>
+<g class="part">
+ <path d="M488 247Q505 184 584 185Q675 181 708 240Q739 303 727 378Q710 441 628 465L566 469Q508 463 489 417L480 374Q471 357 478 346L470 318Q467 302 477 295Z" fill="#d9e9e8"/>
+ <path d="M487 278q22 6 25 21v28q-18 10-33 9l-9-18q-4-15 7-23Z" fill="#385963"/>
+ <path d="M628 209q73 22 79 91l-12 73q-10 28-30 41l-17-13q32-38 32-95q-2-53-52-77Z" fill="#85b4b3"/>
+ <path d="M669 259q33 37 19 95l-22 36q-17-50 3-131Z" fill="url(#vent)"/>
+ <path d="M494 371q16 0 20 11v26q-8 5-18 3Z" fill="#eff4ed"/>
+ <path d="M550 454q51 16 98 2l-14 18q-40 11-78 0Z" fill="#8ba3a4"/>
+</g>
+<path class="dim" d="M470 497h259"/><text x="560" y="523" class="label">D 外深</text>
+<text x="830" y="145" class="label">顶部 / 维护区</text>
+<g class="part"><path d="M856 234Q849 200 911 187Q981 172 1034 210Q1051 235 1044 282Q1031 315 961 323Q893 318 864 290Z" fill="#d9e9e8"/><path d="M869 236q86-49 163 1" fill="none" stroke-dasharray="5 6"/><path d="M885 271q70-27 131 2l-9 15q-77 27-113-1Z" fill="url(#vent)"/></g>
+<path class="leader" d="M975 206l45-42h52M998 282l25 64h47"/>
+<text x="823" y="379" class="small">虚线示意可拆式维护盖</text><text x="823" y="406" class="small">排风区靠后，进风区避开接口</text><text x="823" y="433" class="small">通风面积与走线由热测确定</text>
+<path d="M44 553h1032" stroke="#b9cbce"/>
+<text x="48" y="590" class="label">装配前核对</text>
+<text x="48" y="623" class="small">镜头　以实物安装坐标校正镜头窗，核对四角视野。</text>
+<text x="48" y="653" class="small">眼与嘴　人工测量全行程包络，留出运动和维护空间。</text>
+<text x="585" y="623" class="small">后盖　锁止、出线和工具可达性需样机核对。</text>
+<text x="585" y="653" class="small">底部　实测颈部、底座和线束扫掠后再定开口。</text>
+<text x="48" y="693" class="small mute">工程确认后填写同目录《外观评审与样机验收》并附实测记录。</text>
+</svg>

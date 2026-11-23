@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=心语演示录屏
+Comment=录制桌面、讲解和机器人播报
+Exec=bash "/home/nvidia/Desktop/机器人头/scripts/record-demo.sh"
+Terminal=true
+Icon=media-record
+Categories=AudioVideo;Recorder;

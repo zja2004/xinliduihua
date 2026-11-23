@@ -1,0 +1,36 @@
+{
+  "baseline": {
+    "url": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/e87f176479d0855a907a41277aca2f8ee7a09523/Qwen3.5-4B-Q4_K_M.gguf",
+    "file": "models/llm/Qwen3.5-4B-Q4_K_M.gguf",
+    "bytes": 2740937888,
+    "sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+    "source": "https://huggingface.co/Qwen/Qwen3.5-4B",
+    "license": "apache-2.0"
+  },
+  "experimental": {
+    "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF/resolve/391fc7d103e3942a408def3e4f51c2f85d464417/Qwen3.8-4B-Q4_K_M.gguf",
+    "file": "models/llm/Qwen3.8-4B-Distill-Q4_K_M.gguf",
+    "bytes": 2783446304,
+    "sha256": "dec96e8cf2e11b613bb46513dec485377f9ca5a351e71712ee0e244f287c6790",
+    "source": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill",
+    "license": "apache-2.0; community distillation, upstream/data review still required"
+  },
+  "asr": {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-small-ctc-zh-int8-2025-04-01.tar.bz2",
+    "file": "models/downloads/asr-small-zh-int8.tar.bz2",
+    "bytes": 21264113,
+    "sha256": "b3b309f7ce4a737195fcc6963ea19b0653a7d3401580af5ae0d3e284cbb71f0b",
+    "extract_to": "models/asr",
+    "source": "https://k2-fsa.github.io/sherpa/onnx/pretrained_models/online-ctc/zipformer-ctc-models.html",
+    "license": "verify individual model terms before production"
+  },
+  "tts": {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-int8-multi-lang-v1_1.tar.bz2",
+    "file": "models/downloads/kokoro-v1_1-int8.tar.bz2",
+    "bytes": 147031220,
+    "sha256": "a1e94694776049035c4f2c6529f003aaece993c76aae9a78995831c3c4dcafc6",
+    "extract_to": "models/tts",
+    "source": "https://k2-fsa.github.io/sherpa/onnx/tts/pretrained_models/kokoro.html",
+    "license": "verify Kokoro weights, voices, lexicons and runtime terms separately"
+  }
+}

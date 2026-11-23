@@ -1,0 +1,20 @@
+{
+  "distill9b": {
+    "label": "Community Qwen3.8-9B-Distill-Q4_K_M",
+    "model": "models/Qwen3.8-9B-Distill/Qwen3.8-9B-Q4_K_M.gguf"
+  },
+  "baseline": {
+    "label": "Qwen3.5-4B-Q4_K_M",
+    "asset": "baseline",
+    "model": "models/llm/Qwen3.5-4B-Q4_K_M.gguf"
+  },
+  "experimental": {
+    "label": "Community Qwen3.8-4B-Distill-Q4_K_M",
+    "asset": "experimental",
+    "model": "models/llm/Qwen3.8-4B-Distill-Q4_K_M.gguf"
+  },
+  "psyche": {
+    "label": "Psyche-R1-Q4_K_M",
+    "model": "models/Psyche-R1/Psyche-R1-Q4_K_M.gguf"
+  }
+}

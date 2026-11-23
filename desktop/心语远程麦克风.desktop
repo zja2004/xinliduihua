@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=心语远程麦克风
+Comment=将 ToDesk 语音通话接到访谈输入
+Exec=/usr/bin/python3 "/home/nvidia/Desktop/机器人头/scripts/todesk_mic.py" --desktop
+Terminal=false
+Icon=audio-input-microphone
+Categories=AudioVideo;Audio;

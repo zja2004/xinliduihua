@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>心语 API 文档</title><link rel="stylesheet" href="/style.css"></head><body><main class="api-doc"><a href="/">← 返回访谈工作台</a><h1>本地访谈 API</h1><p>服务地址：<code>http://127.0.0.1:18088</code> · <a href="/api/openapi.json">OpenAPI 3.0 规范</a></p><p>所有写操作使用 <code>Content-Type: application/json</code>。错误返回 JSON：<code>{"error":"原因"}</code>。</p><table><thead><tr><th>方法</th><th>路径</th><th>用途</th></tr></thead><tbody><tr><td>GET</td><td>/api/status</td><td>运行状态与当前会话</td></tr><tr><td>GET</td><td>/api/questions</td><td>简体题目和选项</td></tr><tr><td>GET</td><td>/api/sessions</td><td>历史会话列表</td></tr><tr><td>POST</td><td>/api/sessions</td><td>开始访谈，mode 为 voice 或 text</td></tr><tr><td>GET</td><td>/api/sessions/{id}</td><td>题目、进度、记录、计分与状态</td></tr><tr><td>POST</td><td>/api/sessions/{id}/actions</td><td>answer / repeat / previous / skip / options / stop</td></tr><tr><td>GET</td><td>/api/sessions/{id}/answers.json</td><td>下载原始 JSON</td></tr><tr><td>GET</td><td>/api/sessions/{id}/summary.txt</td><td>下载完成总结</td></tr><tr><td>GET</td><td>/api/sessions/{id}/audio/{file}.wav</td><td>播放或下载回答录音</td></tr></tbody></table><h2>调用示例</h2><pre>curl http://127.0.0.1:18088/api/sessions \
+  -H 'Content-Type: application/json' \
+  -d '{"mode":"voice"}'
+
+curl http://127.0.0.1:18088/api/sessions/会话编号/actions \
+  -H 'Content-Type: application/json' \
+  -d '{"action":"answer","score":2,"question_id":"Q01"}'
+
+curl http://127.0.0.1:18088/api/sessions/会话编号</pre><p>语音模式的操作先进入音频线程队列，POST 成功表示已接收；轮询 GET 查看保存及题号变化。文字模式同步执行。question_id 用于拒绝题号已变化的旧操作。</p><p>同一时间只允许一个访谈。结束后可新建。voice 使用开发板上的音频设备，text 不开启麦克风。按钮或文字作答不会凭空产生录音；只有实际收音的回答才有 WAV。</p><p>错误码：400 参数无效，403 非本机或跨站请求，404 资源不存在，409 会话或题目状态冲突。语音设备失败通过会话的 phase=error 和 error 字段报告。</p></main></body></html>

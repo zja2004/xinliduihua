@@ -1,0 +1,32 @@
+# Local runtime, interviews and credentials
+.git-credentials
+.env
+.env.*
+!*.example
+*.pem
+*.key
+*.sqlite*
+*.db
+*.pyc
+__pycache__/
+*.egg-info/
+.venv*/
+.runtime/
+sessions/
+models/
+reports/
+recordings/
+*.gguf
+*.onnx
+*.safetensors
+*.wav
+*.mp4
+*.webm
+*.part
+*.log
+*.zip
+# Local-only supplier reference files and unpublished research
+/HeadTool_v2.5.py
+/robot-talk-ros2/
+/机器人头/机器人头操作代码/
+/机器人头/research/

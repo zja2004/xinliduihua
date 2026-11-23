@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=机器人摄像头
+Comment=查看机器人摄像头实时画面
+Exec=bash "/home/nvidia/Desktop/机器人头/scripts/camera.sh"
+Path=/home/nvidia/Desktop/机器人头
+Terminal=true
+Icon=camera-web
+Categories=AudioVideo;

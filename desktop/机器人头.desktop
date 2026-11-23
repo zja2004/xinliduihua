@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=机器人头
+Comment=人物与语音唤醒、眼球跟随和21题访谈
+Exec=bash "/home/nvidia/Desktop/机器人头/scripts/robot.sh"
+Path=/home/nvidia/Desktop/机器人头
+Terminal=true
+Icon=face-smile
+Categories=AudioVideo;Education;

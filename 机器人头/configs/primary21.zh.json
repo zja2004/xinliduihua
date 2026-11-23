@@ -1,0 +1,209 @@
+{
+  "instrument": "PRIMARY-21",
+  "version": "1.0",
+  "title": "小学一周感受问卷（21题·试用版）",
+  "example": false,
+  "language": "zh-Hans",
+  "authorship": "项目自编：保留既有21题的主题位置，改用小学日常表达；不是DASS-21或其等效译本。",
+  "validation_status": "unvalidated_project_authored",
+  "source": "项目自编题单；主题位置参考项目原有21题，未验证信效度。",
+  "scoring_source": "src/orin_voice/primary21.py；每题0–3分直接相加，不乘二，不使用原量表常模。",
+  "reference_period": "past_week",
+  "instructions": "请想一想过去一周的感受。每句话都可以选：零分，没有；一分，偶尔；二分，有时；三分，经常。没有标准答案，按你自己的情况回答就好。不知道或不想回答时，可以跳过。",
+  "response_options": {
+    "0": "没有",
+    "1": "偶尔",
+    "2": "有时",
+    "3": "经常"
+  },
+  "auto_advance": true,
+  "score_direction": "higher_means_more_self_reported_difficulty",
+  "interpretation_notice": "项目自编试用问卷，尚未验证信效度。分数仅整理过去一周本人报告的感受，不用于疾病诊断或严重程度分级。",
+  "questions": [
+    {
+      "id": "Q01",
+      "text": "我想安静下来时，心里还是有点乱。",
+      "dimension": "tension",
+      "topic": "安静下来"
+    },
+    {
+      "id": "Q02",
+      "text": "我会觉得嘴巴干干的。",
+      "dimension": "worry",
+      "topic": "口干感受"
+    },
+    {
+      "id": "Q03",
+      "text": "平时喜欢的事情，也不太能让我开心。",
+      "dimension": "mood",
+      "topic": "愉快感受"
+    },
+    {
+      "id": "Q04",
+      "text": "没有跑跳时，我也会觉得呼吸有点急。",
+      "dimension": "worry",
+      "topic": "呼吸急促感受"
+    },
+    {
+      "id": "Q05",
+      "text": "要开始写作业或做事情时，我会觉得提不起劲。",
+      "dimension": "mood",
+      "topic": "开始做事的劲头"
+    },
+    {
+      "id": "Q06",
+      "text": "碰到小事情，我也会一下子很着急。",
+      "dimension": "tension",
+      "topic": "对小事情的着急反应"
+    },
+    {
+      "id": "Q07",
+      "text": "我会觉得手有点发抖。",
+      "dimension": "worry",
+      "topic": "手部发抖感受"
+    },
+    {
+      "id": "Q08",
+      "text": "我会觉得做事情很费劲，心里累累的。",
+      "dimension": "tension",
+      "topic": "做事情时的心理费力感"
+    },
+    {
+      "id": "Q09",
+      "text": "轮到我发言或参加活动时，我会担心自己出错。",
+      "dimension": "worry",
+      "topic": "担心出错的场合"
+    },
+    {
+      "id": "Q10",
+      "text": "想到明天或接下来的活动，我不太有期待的心情。",
+      "dimension": "mood",
+      "topic": "对接下来活动的期待"
+    },
+    {
+      "id": "Q11",
+      "text": "我会觉得心里不踏实，坐着也不太安稳。",
+      "dimension": "tension",
+      "topic": "心里不安稳"
+    },
+    {
+      "id": "Q12",
+      "text": "到了可以休息的时候，我还是不太能放松。",
+      "dimension": "tension",
+      "topic": "休息时放松"
+    },
+    {
+      "id": "Q13",
+      "text": "我会觉得心情低落，笑不太出来。",
+      "dimension": "mood",
+      "topic": "心情低落"
+    },
+    {
+      "id": "Q14",
+      "text": "做事情被打断时，我会很不耐烦。",
+      "dimension": "tension",
+      "topic": "做事被打断时的不耐烦"
+    },
+    {
+      "id": "Q15",
+      "text": "我会突然很紧张，一时不知道怎么办。",
+      "dimension": "worry",
+      "topic": "突然紧张的感受"
+    },
+    {
+      "id": "Q16",
+      "text": "做平时喜欢的事情时，我也不太有兴趣。",
+      "dimension": "mood",
+      "topic": "对喜欢事情的兴趣"
+    },
+    {
+      "id": "Q17",
+      "text": "我对自己不太有信心。",
+      "dimension": "mood",
+      "topic": "对自己的信心"
+    },
+    {
+      "id": "Q18",
+      "text": "碰到小事情，我也容易生气。",
+      "dimension": "tension",
+      "topic": "容易生气"
+    },
+    {
+      "id": "Q19",
+      "text": "没有跑跳时，我也会觉得心跳得很快。",
+      "dimension": "worry",
+      "topic": "心跳加快的感受"
+    },
+    {
+      "id": "Q20",
+      "text": "没有发生什么事情，我也会觉得有点害怕。",
+      "dimension": "worry",
+      "topic": "没有明显事情时害怕"
+    },
+    {
+      "id": "Q21",
+      "text": "我会觉得一天里的事情没什么意思。",
+      "dimension": "mood",
+      "topic": "日常事情的趣味与意义感"
+    }
+  ],
+  "subscales": {
+    "mood": {
+      "label": "心情与兴趣",
+      "item_ids": [
+        "Q03",
+        "Q05",
+        "Q10",
+        "Q13",
+        "Q16",
+        "Q17",
+        "Q21"
+      ]
+    },
+    "worry": {
+      "label": "担心与身体感受",
+      "item_ids": [
+        "Q02",
+        "Q04",
+        "Q07",
+        "Q09",
+        "Q15",
+        "Q19",
+        "Q20"
+      ]
+    },
+    "tension": {
+      "label": "紧绷与调节",
+      "item_ids": [
+        "Q01",
+        "Q06",
+        "Q08",
+        "Q11",
+        "Q12",
+        "Q14",
+        "Q18"
+      ]
+    }
+  },
+  "scoring": {
+    "item_range": [
+      0,
+      3
+    ],
+    "subscale_raw_range": [
+      0,
+      21
+    ],
+    "subscale_mean_range": [
+      0,
+      3
+    ],
+    "total_range": [
+      0,
+      63
+    ],
+    "multiplier": 1,
+    "missing_policy": "no_imputation; incomplete total or subscale is null",
+    "clinical_cutoffs": null
+  }
+}

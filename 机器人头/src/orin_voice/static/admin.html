@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>心语 · 心理老师管理台</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/admin.css">
+</head>
+<body class="teacher">
+  <main class="teacher-main">
+    <header class="teacher-header">
+      <div><div class="eyebrow">心语 · 本地心理支持系统</div><h1>心理老师管理台</h1><p class="subheading">查看受访者资料、任务回答、录音和录像。数据仅保存在本机。</p></div>
+      <div><a href="/school">← 返回学校工作台</a><button id="refresh">刷新</button></div>
+    </header>
+    <div id="error" class="teacher-error" hidden></div>
+    <div class="teacher-grid">
+      <section class="teacher-card"><h2>访谈记录</h2><div id="session-list" class="session-list"><p class="muted">正在加载……</p></div></section>
+      <section class="teacher-card" id="detail"><div class="empty">请选择左侧的一次访谈。</div></section>
+    </div>
+  </main>
+  <script src="/school.js" defer></script>
+  <script src="/admin.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.venv/
+.venv.backup.*/
+__pycache__/
+*.egg-info/
+models/
+.runtime/
+reports/
+recordings/
+*.part
+
+/sessions/
